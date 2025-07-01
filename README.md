@@ -10,7 +10,7 @@ A fully modular and event-driven cryptocurrency exchange system built using **No
 
 Below is a high-level view of the exchange system pipeline:
 
-![Exchange Architecture](./docs/exchange_architecture.png)
+![Exchange Architecture](./Exchange_arch.png)
 
 ### 🔁 Data Flow:
 
