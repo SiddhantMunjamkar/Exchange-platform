@@ -36,6 +36,8 @@ Below is a high-level view of the exchange system pipeline:
 ---
 
 ## 📁 Project Structure
+
+```
 ├── api           # REST API for placing orders (HTTP server)
 ├── db            # Database processor to store trades in TSDB
 ├── docker        # Docker and Docker Compose configs
@@ -44,6 +46,7 @@ Below is a high-level view of the exchange system pipeline:
 ├── mm            # Market Maker bot (optional, generates liquidity)
 ├── node_modules  # Installed node dependencies
 ├── ws            # WebSocket server for live data feed
-├── .gitignore    
-├── README.md     
-├── yarn.lock     
+├── .gitignore
+├── README.md
+├── yarn.lock
+```
