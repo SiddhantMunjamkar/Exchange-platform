@@ -36,14 +36,14 @@ Below is a high-level view of the exchange system pipeline:
 ---
 
 ## 📁 Project Structure
-├── api # REST API for placing orders (HTTP server)
-├── db # Database processor to store trades in TSDB
-├── docker # Docker and Docker Compose configs
-├── engine # Matching engine that executes trades
-├── frontend # Web frontend client (React or similar)
-├── mm # Market Maker bot (optional, generates liquidity)
-├── node_modules # Installed node dependencies
-├── ws # WebSocket server for live data feed
-├── .gitignore
-├── README.md
-├── yarn.lock
+├── api           # REST API for placing orders (HTTP server)
+├── db            # Database processor to store trades in TSDB
+├── docker        # Docker and Docker Compose configs
+├── engine        # Matching engine that executes trades
+├── frontend      # Web frontend client (React or similar)
+├── mm            # Market Maker bot (optional, generates liquidity)
+├── node_modules  # Installed node dependencies
+├── ws            # WebSocket server for live data feed
+├── .gitignore    
+├── README.md     
+├── yarn.lock     
