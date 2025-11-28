@@ -19,6 +19,7 @@ export async function getTickers(): Promise<Ticker[]> {
 }
 
 
+
 export async function getDepth(market: string): Promise<Depth> {
     const response = await axios.get(`${BASE_URL}/depth?symbol=${market}`);
     return response.data;
